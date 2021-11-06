@@ -1,0 +1,30 @@
+html {
+    height: 100vw;
+
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: flex;
+    
+}
+
+a {
+    color: red;
+}
