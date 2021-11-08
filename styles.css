@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px;
     
 }
 
@@ -13,7 +14,7 @@ body {
     justify-content: space-around;
     background-color: #1F2937;
     color: white;
-    padding: 16px;
+    padding: 16px 120px;
     
 }
 
@@ -21,6 +22,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0px 40px 0px 0px;
 
 }
 
@@ -50,20 +52,108 @@ a {
 .bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .header-left {
     display: flex;
     flex-direction: column;
+    
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px;
+    margin: -90px 0px 0px 0px;
+}
+
+.title-text {
+    font-size: 18px;
+    align-self: flex-start;
+    width: 360px;
+}
+
+
+.sign-up {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: white;
+    border: solid 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+
 }
 
 .rock img {
-    width: 400px;
+    width: 320px;
     height: auto;
+    border-radius: 10%;   
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+.block-one {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block-one img{
+    width: 140px;
+    height: auto;
+    border: solid rgb(7, 134, 212) 4px;
     border-radius: 10%;
 }
 
+.info-header {
+    align-self: center;
+}
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 90px 60px 90px;
+    
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.block-two {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 40px 120px;
+}
+
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    
+
+}
+
+.author {
+    align-self: flex-end;
+    margin: -10px 24px 0px 0px;
+    font-size: 20px;
+}
 
