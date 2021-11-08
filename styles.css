@@ -157,3 +157,58 @@ a {
     font-size: 20px;
 }
 
+.block-three {
+    display: flex;
+    justify-content: center;
+    padding: 60px 120px;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #3882f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    padding: 40px 50px;
+    gap: 80px;
+}
+
+.wrapper-text {
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    gap: 5px;
+
+    
+}
+
+.subscribe-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.subscribe-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-button {
+    flex: 0 0 auto;
+    background-color: #3882f6;
+    color: white;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 8px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 100px;
+}
